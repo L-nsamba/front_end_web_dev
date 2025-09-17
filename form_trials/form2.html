@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY SECOND FORM</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+
+        <form>
+
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name_field" name="name_field"
+                 placeholder="Jon Doe"
+                 pattern="^[A-Z]{1}[a-z]+\s[A-Z]{1}[a-z]+$"
+                 required minlength="2">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email"
+                 placeholder="trial@example.com"
+                 pattern="^[a-z]+\.[a-z]+@[a-z]+\.[a-z]{2,3}$"
+                 required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="address">Address: </label>
+                <input type="text" id="address" name="address"
+                placeholder="Kigali, Rwanda"
+                pattern="^[A-Za-z]+, \s[A-Za-z]+$"
+                required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" id="password"
+                name="password" placeholder="********"
+                pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.*[0-9]).{12,}">
+            </div>
+
+            <br>
+            <div>
+                <label for="contact">
+                    <select>
+                        <option>+256</option>
+                        <option>+254</option>
+                        <option>+250</option>
+                    </select>
+                </label>
+                <input type="tel" id="contact" name="contact" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+            </div>
+
+            <br>
+
+            <input type="datetime-local">
+
+            <br>
+
+            <br>
+
+
+            <button onclick="showAlert1()" type="submit">Register</button>
+            <button onclick="showAlert2()" type="reset">Reset</button>
+
+            <br>
+
+
+
+    </body>
+</html>

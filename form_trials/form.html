@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY FIRST HTML FORM</title>
+    </head>
+    <body>
+        <form>
+            <br></br>
+            <table>
+                <tr>
+                    <td>Name: </td>
+                    <td> <input type="text" placeholder="name"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td>Email: </td>
+                    <td><input type="email" placeholder="example@gmail.com"></td>
+                </tr>
+                <br>
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password" placeholder="*********"></td>
+                </tr>
+                <tr>
+                    <td>Gender: </td>
+                    <td>
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contact: </td>
+                    <td>
+                        <select>
+                            <option>+256</option>
+                            <option>+254</option>
+                            <option>+250</option>
+                        </select>
+                        <input type="number" placeholder="123 456 789">
+                    </td>
+                </tr>
+
+            </table>
+
+            <script>
+                function showAlert1() {
+                    alert("Form successfully submitted!")
+                }
+            </script>
+            <button onclick="showAlert1()">Register</button>
+
+            <script>
+                function showAlert2() {
+                    alert("Form reset!")
+                }
+            </script>
+            <button onclick="showAlert2()">Reset</button>
+
+        </form>
+    </body>
+</html>

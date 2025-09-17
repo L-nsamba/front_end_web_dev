@@ -1,0 +1,25 @@
+body{
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+input{
+    padding: 5px;
+    width: 200px;
+}
+
+.button{
+    width: auto;
+}
+
