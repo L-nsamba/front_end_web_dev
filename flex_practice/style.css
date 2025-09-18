@@ -1,0 +1,36 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#child_one{
+    flex: 25%;
+    background-color: aqua;
+    width: auto;
+    padding: 16px;
+}
+
+#child_two{
+    flex: 25%;
+    background-color: red;
+    width: auto;
+    padding: 16px;
+    align-items: center;
+}
+
+#child_three{
+    flex: 25%;
+    background-color: purple;
+    width: auto;
+    padding: 16px;
+    align-items: center;
+}
+
+#child_four{
+    flex: 25%;
+    background-color: orange;
+    width: auto;
+    padding: 16px;
+    align-items: center;
+}
