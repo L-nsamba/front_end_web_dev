@@ -103,7 +103,7 @@ x = Number(x);
 
 console.log(x, typeof x)*/
 
-const PI = 3.14159;
+/*const PI = 3.14159;
 let radius;
 let circumference;
 
@@ -113,4 +113,91 @@ document.getElementById(`submit`).onclick = function () {
     radius = Number(radius);
     circumference = 2 * PI * radius;
     document.getElementById(`myh3`).textContent = `${circumference} cm . Told ya!`
+}*/
+
+/*age = window.prompt(`What the hell is your age?`)
+age = Number(age)
+if(age > 21){
+    console.log(`You are older than 21 years`)
+}
+else{
+    console.log(`You are a kido, #bounce`)
+}
+
+let time = 14;
+
+if (time < 12){
+    console.log(`Good morning!`)
+}
+else{
+    console.log(`Good afternoon`)
+}
+
+let isStudent = true;
+
+if(isStudent){
+    console.log(`You are a student`)
+}
+else{
+    console.log(`You ARE NOT A student`)
+}*/
+
+/*let age = 29;
+let hasLicense = false;
+
+age = window.prompt(`Wetin be ur age?`)
+age = Number(age)
+if(age >= 16){
+    console.log(`You are old enough to drive`)
+}
+else{
+    console.log(`You are too small to get a license`)
+}*/
+
+/*let age = 20;
+let hasLicense = false;
+
+if (age >= 16){
+    console.log(`You are old enough to drive`)
+
+    if(hasLicense){
+        console.log(`You have a license`)
+    }
+    else{
+        console.log(`You DONT HAVE a license`)
+    }
+}
+else{
+    console.log(`You are not old enough to drive`)
+}*/
+
+const mytxt = document.getElementById(`mytxt`);
+const mysubmit = document.getElementById(`mysubmit`);
+const result = document.getElementById(`result`);
+
+mysubmit.onclick = function(){
+    age = mytxt.value;
+    age = Number(age)
+
+    if (age > 100 ){
+        console.log(`You are too old`)
+        result.textContent = `You are too old`
+    }
+    else if (age < 0){
+        console.log(`Mbu ur age is negative?`)
+        result.textContent = `Mbu ur age is negative`
+    }
+    else if (age == 0){
+        console.log(`You were just born!!!`)
+        result.textContent = `You were just born`
+    }
+    else if (age < 18){
+        console.log(`Bro you cant watch this movie`)
+        result.textContent = `Bro you cant watch`
+
+    }
+    else{
+        console.log(`You can watch`)
+        result.textContent = `You can watch`
+    }
 }
