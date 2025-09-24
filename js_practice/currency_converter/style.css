@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana;
+    background-color: rgb(134, 202, 216);
+}
+
+#converter_box{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: rgb(244, 180, 178);
+    align-items: center;
+}
+
+
+#converter_box label {
+    display: inline-block;
+    width: 80px;   /* Uniform width for labels */
+}
+
+#converter_box input,
+#converter_box select {
+    width: 200px;  /* Make all inputs/selects same length */
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* ensures padding doesn't break width */
+}
+
+#converter_box div:last-child {
+    text-align: center;  /* Centers the button horizontally */
+    margin-top: 20px;    /* Adds space above the button */
+}
+
+#converter_box button {
+    padding: 10px 20px;       /* Button size */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#converter_box button:hover {
+    background-color: #0056b3; /* Slightly darker on hover */
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
