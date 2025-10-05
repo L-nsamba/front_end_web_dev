@@ -12,7 +12,7 @@ const to_field = document.getElementById(`to_field`);
 const convert_btn = document.getElementById(`convert_btn`);
 const final_value = document.getElementById(`final_value`);
 
-function convertCurrency(){
+convert_btn.onclick = function convertCurrency(){
     const fromCurrency = from_field.value;
     const toCurrency = to_field.value;
     const amount = parseFloat(amount_field.value);
@@ -27,6 +27,3 @@ function convertCurrency(){
 
     final_value.textContent = `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)} ${toCurrency}`;
 }
-
-
-convert_btn.onclick = convertCurrency;
