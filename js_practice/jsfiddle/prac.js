@@ -66,7 +66,7 @@
 // console.log(`TOTAL COST: ${generateReceipt(customerOrder)}`)
 
 
-// const passwords = ["Password123", "PaSsWoRd901", "bainebridge", "massspectrometer", "clint419124"]
+// const passwords = ["Password123", "PaSsWoRd901", "clint419124"]
 
 // const passwords = prompt(`Please enter your password: `)
 
