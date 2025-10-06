@@ -485,13 +485,254 @@ mysubmit.onclick = function(){
 
 // const number = [1,2,3,4,5,6];
 
-hello(goodbye);
+// hello(goodbye);
 
-function hello(callback){
-    console.log("hello")
-    callback()
-}
+// function hello(callback){
+//     console.log("hello")
+//     callback()
+// }
 
-function goodbye(){
-    console.log("goodbye")
-}
+// function goodbye(){
+//     console.log("goodbye")
+// }
+
+// sum(displayConsole , 5 , 8)
+
+// function sum(callback, x, y){
+//     let result = x + y;
+//     callback(result)
+// }
+
+// function displayConsole(result){
+//     console.log(result)
+// }
+
+// let numbers = [1,2,3,4,5]
+
+// numbers.forEach(triple)
+
+// numbers.forEach(double)
+
+// numbers.forEach(display);
+
+
+
+// function triple(element, index, array){
+//     array[index] = element * 3;
+// }
+
+// function double(element, index, array){
+//     array[index] = element * 2;
+
+// }
+
+// function cube(element, index, array){
+//     array[index] = Math.pow(element, 3);
+
+// }
+
+// function display(element){
+//     console.log(element)
+// }
+
+// let fruits = ["apple", "orange", "coconut", "grape"]
+
+// fruits.forEach(captial)
+
+// //fruits.forEach(upperCase)
+
+// fruits.forEach(display)
+
+// function upperCase(element, index, array){
+//     array[index] = element.toUpperCase();
+// }
+
+// function toLowerCase(element, index, array){
+//     array[index] = element.toLowerCase();
+
+// }
+
+// function captial(element, index, array){
+//     array[index] = element.charAt(0).toUpperCase() + element.slice(1)
+// }
+// function display(element){
+//     console.log(element)
+// }
+
+// const numbers = [1,2,3,4,5]
+
+// const squares = numbers.map(square)
+
+// const cubes = numbers.map(cube)
+
+// console.log(squares)
+// console.log(cubes)
+
+// function square(element){
+//     return Math.pow(element, 2)
+// }
+
+// function cube(element){
+//     return Math.pow(element, 3)
+// }
+
+// let numbers = [1,2,3,4,5]
+
+// numbers.forEach(fourth)
+
+// function fourth(element, index, array){
+
+//     array[index] = Math.pow(element, 4)
+
+// }
+
+// console.log(numbers)
+
+
+// const dates = ["2004-1-10", "2025-2-20", "2026-4-21"]
+// const formattedDates = dates.map(formatDates)
+
+// console.log(formattedDates)
+
+// function formatDates(element){
+//     const parts = element.split("-");
+//     return `${parts[1]}/${parts[2]}/${parts[0]}`
+// }
+
+// let songs = [ "so much sense", "YAYO", "still dreaming", "SAMIADOT"]
+
+// songs.forEach(captialize)
+
+// console.log(songs)
+
+// function captialize( element, index, array){
+
+//     array[index] = element.toUpperCase()
+// }
+
+// console.log(Date())
+
+// var total = 10 + 1 + "3"
+// console.log(total)
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7]
+// let evenNums = numbers.filter(isEven)
+// let oddNums = numbers.filter(isOdd)
+
+// console.log(evenNums)
+// console.log(oddNums)
+
+// function isEven(element){
+//     return element % 2 === 0;
+// }
+
+// function isOdd(element){
+//     return element % 2 !== 0;
+// }
+
+// const ages = [16, 17, 18, 19, 20, 60];
+// const adults = ages.filter(isAdult)
+// const child = ages.filter(isChild)
+
+// console.log(adults)
+// console.log(child)
+
+// function isAdult(element){
+//     return element >= 18;
+// }
+
+// function isChild(element){
+//     return element < 18;
+// }
+
+
+// const words = ["apple", "orange", "banana", "coconut", "kiwi", "pomegranate"]
+// const short = words.filter(getShortWords)
+// const long = words.filter(longWords)
+// console.log(short)
+// console.log(long)
+// function getShortWords(element){
+//     return element.length <= 6;
+// }
+
+// function longWords(element){
+//     return element.length > 7;
+// }
+
+
+// const prices = [1000, 2000, 3000, 5000, 10000, 9800]
+// const total = prices.reduce(sum);
+// console.log(`UGX ${total}`)
+
+// function sum(previous, next){
+//     return previous + next
+// }
+
+
+// function hello(){
+//     console.log(`Say it is your last day, #vacay`)
+// }
+
+// setTimeout(hello, 3000)
+
+// setTimeout(function(){
+//     console.log(`jovinatina`)
+// }, 4000)
+
+// const numbers = [1, 2, 3, 4, 5, 6]
+
+// const sqrs = numbers.map(function (element){
+
+//     return Math.pow(element, 2)
+
+// })
+// console.log(sqrs)
+
+
+// const cubes = numbers.map(function (element){
+//     return Math.pow(element, 3)
+// })
+
+// console.log(cubes)
+
+// const evenNums = numbers.filter(function(element){
+
+//     return element % 2 === 0
+
+// })
+
+// console.log(evenNums)
+
+// const oddNums = numbers.filter(function(element){
+
+//     return element % 2 !== 0;
+// })
+
+// console.log(oddNums)
+
+// const total = numbers.reduce(function(accumulator, element){
+//     return accumulator + element
+// })
+
+// console.log(total)
+
+// const numbers = [1 , 2, 3, 4, 5, 6]
+
+// const cube = numbers.map((element) => Math.pow(element, 3))
+
+// console.log(cube)
+
+// const evenNums = numbers.filter((element) => element % 2 === 0)
+
+// console.log(evenNums)
+
+// const oddNums = numbers.filter((element) => element % 2 !== 0)
+
+// console.log(oddNums)
+
+
+// const total = numbers.reduce((accumulator, element) => accumulator + element)
+
+// console.log(total)
+
+

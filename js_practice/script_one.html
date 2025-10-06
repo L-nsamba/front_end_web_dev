@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>JS CLASS ONE</title>
 </head>
-<body>
+<body onload="addPara()">
     <input type="checkbox" id="mycheckbox">
     <label for="mycheckbox">Subscribe</label><br>
 
@@ -21,8 +21,18 @@
 
     <button type="submit" id="mysubmit">submit</button>
 
-    <p id="para"></p>
-    <p id="para2"></p>
+   <script>
+
+        function addPara(){
+            const newPara = document.createElement("p")
+            const newText = document.createTextNode("POOL PARTY, SET, DJ, IJMSMS")
+
+            newPara.appendChild(newText)
+
+            document.body.appendChild(newPara);
+        }
+
+   </script>
 
 <script src="index.js"></script>
 </body>

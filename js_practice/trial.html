@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Demo</title>
+  <style>
+    button {
+      margin: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    input {
+      padding: 5px;
+      font-size: 16px;
+      margin: 10px;
+    }
+    #log {
+      margin-top: 20px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Event Listener Demo</h1>
+
+<button id="clickBtn">Click Me!</button>
+<button id="hoverBtn">Hover Over Me!</button>
+<input type="text" id="inputBox" placeholder="Type something...">
+<div id="log"></div>
+
+<script>
+  const log = document.querySelector("#log");
+
+  // CLICK event
+  document.querySelector("#clickBtn").addEventListener("click", () => {
+    log.innerHTML += "Button clicked!<br>";
+  });
+
+  // MOUSEOVER event
+  document.querySelector("#hoverBtn").addEventListener("mouseover", () => {
+    log.innerHTML += "Mouse is hovering over the button!<br>";
+  });
+
+  // KEYDOWN event
+  document.querySelector("#inputBox").addEventListener("keydown", (e) => {
+    log.innerHTML += `Key pressed: ${e.key}<br>`;
+  });
+</script>
+
+</body>
+</html>
