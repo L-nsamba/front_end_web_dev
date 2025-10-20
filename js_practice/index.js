@@ -736,3 +736,85 @@ mysubmit.onclick = function(){
 // console.log(total)
 
 
+// setTimeout(function (){
+//     console.log(`helloworld123`)
+// }, 3000)
+
+
+// let numbers = [ 1, 3, 4 , 5, 6, 7];
+
+// const even = numbers.filter((element) => element % 2 === 0)
+
+
+// const person1 = {
+//     firstName: "Spongebob",
+//     lastName: "Sqaure",
+//     age: 30,
+//     isEmployed: true,
+//     sayHello: function(){console.log(`HELLO I AM SPS`)},
+//     eat: () => console.log(`I am eating a crabby patty`)
+// }
+
+// const person2 = {
+//     firstName: "Patrick",
+//     lastName: "Star",
+//     age: 57,
+//     isEmployed: false,
+//     sayHello: () => console.log(`I am patrico starandino`),
+//     eat: () => console.log(`I am eating a chowmain chicken`)
+// }
+
+// console.log(person1.firstName)
+// console.log(person1.isEmployed)
+// console.log(person1.age)
+// person1.sayHello()
+// person1.eat()
+
+// console.log("")
+
+
+// console.log(person2.firstName)
+// console.log(person2.lastName)
+// console.log(person2.age)
+// person2.sayHello()
+// person2.eat()
+
+
+// const person1 = {
+//     name: "spongebob",
+//     favFood: "kfc",
+//     sayHello: function(){console.log(`My name is ${this.name}`)},
+//     eat: function(){console.log(`${this.name} is eating ${this.favFood}`)}
+// }
+
+// const person2 = {
+//     name: "sama",
+//     favFood: "fries",
+//     sayHello: function(){console.log(`My name is ${this.name}`)},
+//     eat: function(){console.log(`${this.name} is eating ${this.favFood}`)}
+// }
+
+
+// person1.sayHello()
+// person1.eat()
+
+// person2.sayHello()
+// person2.eat()
+
+// let temp = 22;
+
+// if(temp < 15){
+//     console.log(`cold`)
+// }else{
+//     console.log(`warm`)
+// }
+
+
+// let numbers = [12, 8, 15]
+
+// const answer = numbers.reduce(num)
+// console.log(answer)
+// function num(accumulator, element){
+
+//     return accumulator + element
+// }

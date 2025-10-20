@@ -214,3 +214,185 @@ p::selection{
 #oranges ::after{
     content: 🍏;
 } */
+
+/* .pagination{
+    text-align: center;
+}
+.pagination a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active{
+    background-color: green;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: purple;
+    border-radius: 10px;
+}
+ */
+
+/* *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+
+ header{
+    background-color: purple;
+    text-align: center;
+    padding: 25px;
+ }
+
+ .nav-bar{
+    background-color: gray;
+    height: 50px;
+ }
+
+ aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+ }
+
+ section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+
+ }
+
+ article{
+    float: left;
+    width: 40%;
+    padding: 10px;
+
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: purple;
+    text-align: center;
+    padding: 25px;
+ }
+
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+    }
+} */
+
+/*
+body{
+    margin: 0px;
+    background-image: url(images/nyc.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: grey;
+    height: 80px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.nav-bar{
+    background-color: blueviolet;
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav-bar button{
+    background-color: aqua;
+}
+
+.nav-bar a:hover{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 5px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 5px;
+
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 5px;
+
+}
+
+footer{
+    margin-top: 20px;
+    background-color: grey;
+    clear: both;
+    text-align: center;
+    height: 80px;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+    }
+} */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#box1{
+    background-color: rgb(209, 209, 5);
+}
+
+#box2{
+    background-color: palegreen;
+}
+
+#box3{
+    background-color: brown;
+}
+
+#box4{
+    background-color: cyan;
+}
